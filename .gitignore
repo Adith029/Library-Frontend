@@ -1,49 +1,24 @@
-# Node.js dependencies
-node_modules/
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
-yarn.lock
+pnpm-debug.log*
+lerna-debug.log*
 
-# Build output
-dist/
-build/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Editor and IDE files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS-generated files
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# Logs
-logs/
-*.log
-*.log.*
-
-# Testing
-coverage/
-
-# Vite-specific (since you used Vite for the project)
-.vite/
-vite.config.ts.timestamp*
-
-# Miscellaneous
-*.swp
-*.swo
-*~
-
-# Optional: Ignore local development database or mock API files (if used)
-mock-api/
-db.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
